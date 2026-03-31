@@ -1,0 +1,12 @@
+{
+  "name": "shopping-cart-root",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces --if-present",
+    "install:all": "npm install"
+  }
+}
