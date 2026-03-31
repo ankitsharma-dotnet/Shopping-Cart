@@ -6,7 +6,10 @@
     "server"
   ],
   "scripts": {
+    "start": "npm run start --workspace=server",
+    "build": "npm run build --workspaces --if-present",
     "dev": "npm run dev --workspaces --if-present",
-    "install:all": "npm install"
+    "install:all": "npm install",
+    "menu": "npm run"
   }
 }
